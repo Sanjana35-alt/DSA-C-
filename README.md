@@ -30,5 +30,5 @@ Programs that insert elements into an array.
 ### Notes  
 - Language: **C**  
 - Folders:  
-  - `Traversal/` → basic array operations  
-  - `Insertion/` → inserting elements into arrays  
+  - `Traversal/` 
+  - `Insertion/` 
