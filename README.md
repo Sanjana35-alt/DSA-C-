@@ -24,7 +24,7 @@ Programs that deal with visiting and processing elements of an array.
 ## Insertion Problems  
 Programs that insert elements into an array.  
 
-- [Insert at Position/Index (using pointers)](Arrays/Insertion/1insertion.c)  
+- [Insert at Position/Index](Arrays/Insertion/1insertion.c)  
 
 ---
 
