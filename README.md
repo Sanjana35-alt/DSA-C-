@@ -1,7 +1,6 @@
 # Arrays Problems in C  
 
-This folder contains solutions to common **Array problems** implemented in C.  
-The problems are divided into two sections: **Traversal** and **Insertion**.  
+This folder contains solutions to common **Array problems** implemented in C. 
 
 ---
 
