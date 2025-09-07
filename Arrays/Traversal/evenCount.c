@@ -3,12 +3,15 @@
 
 
 void evenNumCount(int arr[], int size){
+    int evenCount = 0;
     printf("Even elements are: \n");
     for(int i = 0; i<size; i++){
         if(arr[i] % 2 == 0){
             printf("arr[%d] = %d\n", i, arr[i]);
+            evenCount++;
         }
     }
+    printf("Total even elements: %d\n", evenCount);
 }
 
 
