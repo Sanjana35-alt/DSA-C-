@@ -8,7 +8,7 @@ The problems are divided into two sections: **Traversal** and **Insertion**.
 ## Traversal Problems  
 Programs that deal with visiting and processing elements of an array.  
 
-- [Traversal of Array](./Traversal/traversal.c)  
+- [Traversal of Array](Arrays/Traversal/traversal.c)  
 - [Copy Elements](./Traversal/copyElements.c)  
 - [Count Elements](./Traversal/countElements.c)  
 - [Even Count](./Traversal/evenCount.c)  
