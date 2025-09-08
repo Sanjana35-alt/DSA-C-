@@ -13,19 +13,20 @@ void traversal(int arr[], int n){
 void insertAtIndex(int arr[], int *n, int index, int item, int max_size){
     if(*n >= max_size){
         printf("Note: Array is full, can't insert any element.");
+        return;
     }
-    else if(index < 0 || index > *n){
+    if(index < 0 || index > *n){
         printf("Note: Invalid index, can't insert at this index.");
+        return;
     }
-    else{
-        for(int i = *n; i > index; i--){
-            arr[i] = arr[i-1];
-        }
-        arr[index] = item;
-        (*n)++;
+    for (int i = *n; i > index; i--) {
+        arr[i] = arr[i - 1];
+    }
+    arr[index] = item;
+    (*n)++;
 
-        printf("Item (%d) inserted at index %d.\n", item, index);
-    }
+    printf("Item (%d) inserted at index %d.\n", item, index);
+    traversal(arr, *n);
 
 }
 
@@ -58,33 +59,18 @@ int main(){
     char insert;
     scanf(" %c", &insert);
 
-    if(insert == 'Y' || insert == 'y'){
-        if(n == max_size){
-            printf("Note: Array is full, can't insert any element.\n");
-        }
-        else{
-            int index;
-            printf("Enter the index where you want to insert the item (0 to %d): ", n);
-            scanf("%d", &index);
-            
-            if(index < 0 || index > n){
-            printf("Invalid index, can't insert at this index.\n");
-            }
-            else {
-                int item;
-                printf("Enter the item you want to insert: ");
-                scanf("%d", &item);
-                insertAtIndex(arr, &n, index, item, max_size);
-                printf("\n");
-                traversal(arr, n);
-            }
-        
-        }
+   if (insert == 'Y' || insert == 'y') {
+        int index, item;
+        printf("Enter the index where you want to insert the item (0 to %d): ", n);
+        scanf("%d", &index);
+
+        printf("Enter the item you want to insert: ");
+        scanf("%d", &item);
+
+        insertAtIndex(arr, &n, index, item, max_size);
+    } else {
+        printf("No insertion as per your requirement.\n");
     }
-    else{
-        printf("No insertion as per your requirement.");
-    }
-    
 
     return 0;
 }
