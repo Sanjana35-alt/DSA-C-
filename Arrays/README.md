@@ -7,30 +7,30 @@ This folder contains solutions to common **Array problems** implemented in C.
 ## Traversal Problems  
 Programs that deal with visiting and processing elements of an array.  
 
-- [Traversal of Array](Arrays/Traversal/traversal.c)  
-- [Copy Elements](Arrays/Traversal/copyElements.c)  
-- [Count Elements](Arrays/Traversal/countElements.c)  
-- [Even Count](Arrays/Traversal/evenCount.c)  
-- [Even Indices](Arrays/Traversal/evenIndeces.c)  
-- [Odd Indices](Arrays/Traversal/oddIndeces.c)  
-- [Largest Element](Arrays/Traversal/largestElement.c)  
-- [Smallest Element](Arrays/Traversal/smallestElement.c)  
-- [Reverse Array](Arrays/Traversal/reverse.c)  
-- [Sum of Elements](Arrays/Traversal/sum.c)  
+- [Traversal of Array](Traversal/traversal.c)  
+- [Copy Elements](Traversal/copyElements.c)  
+- [Count Elements](Traversal/countElements.c)  
+- [Even Count](Traversal/evenCount.c)  
+- [Even Indices](Traversal/evenIndeces.c)  
+- [Odd Indices](Traversal/oddIndeces.c)  
+- [Largest Element](Traversal/largestElement.c)  
+- [Smallest Element](Traversal/smallestElement.c)  
+- [Reverse Array](Traversal/reverse.c)  
+- [Sum of Elements](Traversal/sum.c)  
 
 ---
 
 ## Insertion Problems  
 Programs that insert elements into an array.  
 
-- [Insert at Position/Index](Arrays/Insertion/1insertion.c)  
+- [Insert at Position/Index](Insertion/1insertion.c)  
 
 ---
 
 ## Deletion Problems  
 Programs that delete elements from an array.
 
-- [Delete at Position/Index](Arrays/Deletion/deletion.c)
+- [Delete at Position/Index](Deletion/deletion.c)
 
 ---
 
