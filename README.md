@@ -27,8 +27,14 @@ Programs that insert elements into an array.
 
 ---
 
+## Deletion Problems  
+Programs that delete elements from an array.
+
+- [Delete at Position/Index](Arrays/Deletion/deletion.c)
+
 ### Notes  
 - Language: **C**  
 - Folders:  
   - `Traversal/` 
-  - `Insertion/` 
+  - `Insertion/`
+  - `Deletion/`
